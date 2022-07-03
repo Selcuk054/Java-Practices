@@ -8,4 +8,13 @@ public class Q08_MethodCreation {
       Kullanicidan iki sayi girmesini isteyiniz.
       Girilen iki sayi ve secilen isleme gore dogru sonucu ekrana yazdirınız.
     */
+
+    public static void main(String[] args) {
+        topla(0,2);
+
+    }
+
+    public static void topla(int i, int i1) {
+    }
+
 }
