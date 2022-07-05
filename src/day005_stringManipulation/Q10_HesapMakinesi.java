@@ -12,21 +12,15 @@ public class Q10_HesapMakinesi {
     */
     public static void main(String[] args) {
         Scanner scan=new Scanner(System.in);
-        System.out.println("Ilk sayiyi giriniz");
-        double sayi1=scan.nextDouble();
         System.out.println("Islemi giriniz");
         char islem=scan.next().charAt(0);
+        System.out.println("Ilk sayiyi giriniz");
+        double sayi1=scan.nextDouble();
         System.out.println("Ikinci sayiyi giriniz");
         double sayi2=scan.nextDouble();
-        if (islem=='-') {
-            if (sayi1 > sayi2) { System.out.println("Islemin sonucu :" + (sayi1 - sayi2));
-            }else if (sayi2>sayi1){System.out.println("Islemin sonucu :" + (sayi2-sayi1));
-            }else System.out.println("Sonuc 0 dir");
+        if       (islem=='-') {System.out.println("Islemin sonucu :"+(sayi1-sayi2));
         }else if (islem=='+') {System.out.println("Islemin sonucu :"+(sayi1+sayi2));
         }else if (islem=='*') {System.out.println("Islemin sonucu :"+(sayi1*sayi2));
-        }else if (islem=='/') {
-            if (sayi1>sayi2) {System.out.println("Islemin sonucu :" + (sayi1 / sayi2));
-            }else if(sayi2>sayi1){System.out.println("Islemin sonucu :" + (sayi2/sayi1));
-            }else System.out.println("Islemin sonucu 1 dir");
+        }else if (islem=='/') {System.out.println("Islemin sonucu :"+(sayi1/sayi2));
         }else System.out.println("Gecerli bir deger giriniz");}}
 

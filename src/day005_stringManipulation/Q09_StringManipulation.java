@@ -23,7 +23,6 @@ public class Q09_StringManipulation {
         if (str.length()>=3){
             System.out.println(str.substring(str.length()-2)
                     + str.substring(str.length()-2) + str.substring(str.length()-2) );
-
         }
     }
 }
