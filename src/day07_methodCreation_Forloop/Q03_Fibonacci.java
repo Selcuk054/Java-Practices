@@ -21,20 +21,14 @@ public class Q03_Fibonacci {
         int ilk=0;
         int toplam=0;
 
-        System.out.println("0"); //ilk rakami almasi icin bunu kendimiz yazabiliriz.
+        System.out.print("0- 1"); //ilk rakami almasi icin bunu kendimiz yazabiliriz.
         for (int i = 0; i <=num ; i++) {
 
             toplam=ilk+ikinci;
             ilk=ikinci;
             ikinci=toplam;
 
-
-
-            System.out.println(toplam);
-
-
-
-
+            System.out.print("- " +toplam);
     }
 }
 }
