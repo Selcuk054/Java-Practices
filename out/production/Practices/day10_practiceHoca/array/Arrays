@@ -33,7 +33,7 @@
     NOT 1 : “n” array’in length’i olmak uzere myArray[n-1] son elemani gosterir
     NOT 2 : Bir Array’de olmayan index’i kullanmak isterseniz “ArraysIndexOutOfBoundsException” hatası alirsiniz.
 
-     Multi Dimesional Array :
+     Multi Dimensional Array :
     Deger Atama -->int arr[][] = { {1, 2}, {3}, {4, 5, 6, 7}, {8, 9} };
     yazdırma-->System.out.println(Arrays.deepToString(arr));
 
