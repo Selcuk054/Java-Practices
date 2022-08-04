@@ -13,10 +13,6 @@ public class Islemler {
     static String kisiTuru;
     //static yazmamizin sebebi tum methodlardan ulasmak icin. gokteki ay gibi.
 
-
-
-
-
    public static void girisPaneli(){
        System.out.println("====================================");
        System.out.println("ÖĞRENCİ VE ÖĞRETMEN YÖNETİM PANELİ");
@@ -45,9 +41,6 @@ public class Islemler {
                girisPaneli();
                break;
        }
-
-
-
 
    }
 
@@ -97,12 +90,7 @@ public class Islemler {
             default:
                 System.out.println("Gecersiz giris yaptiniz");
                 islemMenusu();
-
-
         }
-
-
-
     }
 
     private static void ekle() { // bu method hem ogrenci hemde ogretmen iciin tasarlandi
@@ -129,9 +117,7 @@ public class Islemler {
            Ogretmen ogretmen=new Ogretmen(adSoyad,kimlikNo,yas,bolum,sicilNo);
            ogretmenList.add(ogretmen);
            System.out.println(ogretmenList);
-
        }
-
-
     }
 }
+ 
