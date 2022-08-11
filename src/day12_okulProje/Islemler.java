@@ -93,7 +93,7 @@ public class Islemler {
                 if (each.getKimlikNo().equals(silinecekKimlikNo)){
                     System.out.println("silinen ogrenci :" + each.getAdSoyad());
                     ogrncList.remove(each);//o ogrenciyi siler
-                    flag=false; //iweyctc
+                    flag=false;
                 }
             }if(flag){//eger girilen tc listte yok ise bu if body si calisir
                 System.out.println("Bu tc ile ogrenci yok silinemedi");
