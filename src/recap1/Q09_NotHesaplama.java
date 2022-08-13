@@ -29,6 +29,9 @@ public class Q09_NotHesaplama {
         System.out.println("sonuc = " + sonuc);
 
 
+        System.out.println("Hey dunya nasilsin?");
+
+
 
 
     }
