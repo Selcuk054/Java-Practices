@@ -32,6 +32,10 @@ public class Q09_NotHesaplama {
         System.out.println("Hey dunya nasilsin?");
         System.out.println("Hey dunya nasilsin?");
         System.out.println("Hey dunya nasilsin?");
+        System.out.println("Hey dunya nasilsin?");
+        System.out.println("Hey dunya nasilsin?");
+        System.out.println("Hey dunya nasilsin?");
+        System.out.println("Hey dunya nasilsin?");
 
 
 
