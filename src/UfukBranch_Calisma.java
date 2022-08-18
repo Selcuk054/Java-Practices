@@ -3,7 +3,11 @@ public class UfukBranch_Calisma {
         System.out.println("Branchte calisma 1");
 
 
+
         System.out.println("Ufuk branch i ile cakismasi beklenen");
+
+
+        System.out.println(" Ufuk branch i catisma beklenen ");
 
     }
 }
